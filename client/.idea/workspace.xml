@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac2643b-a007-4a14-ba0b-b6f0f3d154ab" name="Default Changelist" comment="" />
+    <list default="true" id="eac2643b-a007-4a14-ba0b-b6f0f3d154ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/phoenix/netWork1/httpWork/http_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/pkg/windows_386/phoenix/network1.a" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pkg/windows_386/phoenix/network1.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/phoenix/network1/tcp_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/phoenix/netWork1/tcpWork/tcp_server.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -19,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phoenix/netWork1/TCPClient.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="575">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -38,6 +46,9 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
@@ -57,11 +68,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="710" />
-    <option name="y" value="527" />
+    <option name="x" value="286" />
+    <option name="y" value="113" />
     <option name="width" value="2092" />
     <option name="height" value="1460" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,7 +119,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -133,20 +145,20 @@
   <component name="RunManager">
     <configuration name="client" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="client" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="E:\almondGit\almond\client" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="E:\almond\client\main.go" />
+      <filePath value="E:\almondGit\almond\client\main.go" />
       <directory value="$PROJECT_DIR$/" />
-      <output_directory value="E:\almond\client\bin" />
+      <output_directory value="E:\almondGit\almond\client\bin" />
       <method v="2" />
     </configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="710" y="527" width="2092" height="1460" extended-state="1" />
+    <frame x="286" y="113" width="2092" height="1460" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.191437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19537401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -187,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/phoenix/netWork1/TCPClient.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="575">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
