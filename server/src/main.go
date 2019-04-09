@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
-	"phoenix/netWork1/httpWork"
+	"math"
 )
 
 func main(){
-	fmt.Println(" hello world!")
-	httpWork.Run()
+	b := 1.999999999999
+
+	//a,_ := strconv.ParseFloat(fmt.Sprintf("%.2f", b), 64)
+	b = math.Floor(b)
+
+	fmt.Println(b)
 }
